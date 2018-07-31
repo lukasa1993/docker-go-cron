@@ -2,4 +2,4 @@
 
 set -e
 
-exec go-cron -s "$SCHEDULE" -p $PORT -- /bin/sh -c "$COMMAND"
+exec go-cron -s "$SCHEDULE" -p $PORT -- /bin/sh execute.sh
