@@ -2,4 +2,5 @@
 
 set -e
 
+echo "Executing: $COMMAND"
 exec $COMMAND
