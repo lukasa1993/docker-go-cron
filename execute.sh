@@ -3,4 +3,5 @@
 set -e
 
 echo "Executing: $COMMAND"
-exec $COMMAND
+
+/bin/sh -c "$COMMAND"
