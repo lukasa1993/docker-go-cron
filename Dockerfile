@@ -10,5 +10,6 @@ ENV PORT 8080
 ENV COMMAND 'echo hii'
 
 ADD run.sh run.sh
+ADD execute.sh execute.sh
 
 CMD ["sh", "run.sh"]
