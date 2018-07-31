@@ -5,6 +5,8 @@ set -e
 
 apk update
 
+apk add bash
+
 # install go-cron
 wget https://github.com/lukasa1993/go-cron/releases/download/v0.0.7/go-cron-linux.gz
 gunzip go-cron-linux.gz
